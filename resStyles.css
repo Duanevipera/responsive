@@ -1,0 +1,24 @@
+.col1, .col2, .col3{
+  width: 100%;
+}
+
+@media screen and (min-width: 740px){.main-content{
+  width:45%;
+  float: none;
+}
+
+}
+
+@media screen and (min-width: 500px) {.col1, .col2, .col3{
+  width: 45%;
+  float: none;
+}
+
+}
+
+@media screen and (min-width: 350px) {.col1, .col2, .col3{
+  width: 30%;
+  float: none;
+}
+
+}
